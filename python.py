@@ -16,5 +16,4 @@ name = 'ritik'
 age = 18
 # state = 'haryana'
 # print(name, age, state, sep="\t") 
-print(type(name))
-print(type(age))
+print(type(name), type(name))

@@ -111,8 +111,27 @@
 #     print("false")
 
 
-num = int(input("Enter number to check: "))
-if num%2 == 0:
-    print("Even")
+# num = int(input("Enter number to check: "))
+# if (num%2 == 0):
+#     print("Even")
+# else:
+#     print("ODD")
+
+
+a = int(input("Enter 1: "))
+b = int(input("Enter 2: "))
+c = int(input("Enter 3: "))
+
+# if a>b and a>c:
+#     print("greatest is, ",a)
+# elif  a>b and a<c:
+#     print("greatest is, ", c)
+# else:
+#     print("greatest is, ", b)
+
+if a>b and a>c:
+    print("greatest is, ",a)
+elif  c>a and c>b:
+    print("greatest is, ", c)
 else:
-    print("ODD")
+    print("greatest is, ", b)

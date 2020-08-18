@@ -62,8 +62,8 @@
 # #         break
 
 
-num = int(input("Enter the number: "))
-ans = "NOT PRIME"
+# num = int(input("Enter the number: "))
+# ans = "NOT PRIME"
 
 # for i in range(2, num):
 #     if num%i ==0:

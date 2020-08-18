@@ -55,8 +55,18 @@
 #         sum += i
 # print(sum)
 
-for i in range(15, 30):
-    print(i)
-    if i%7 ==0:
-        print("bye")
+# for i in range(15, 30):
+#     print(i)
+#     if i%7 ==0:
+#         print("bye")
+#         break
+
+
+num = int(input("Enter the number: "))
+ans = "PRIME"
+
+for i in range(2, num):
+    if num%i ==0:
+        ans ="NOT PRIME"
         break
+print(ans)

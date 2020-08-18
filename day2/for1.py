@@ -59,14 +59,27 @@
 #     print(i)
 #     if i%7 ==0:
 #         print("bye")
-#         break
+# #         break
 
 
 num = int(input("Enter the number: "))
-ans = "PRIME"
+ans = "NOT PRIME"
 
-for i in range(2, num):
-    if num%i ==0:
-        ans ="NOT PRIME"
-        break
-print(ans)
+# for i in range(2, num):
+#     if num%i ==0:
+#         continue
+#     else:
+#         ans ="PRIME"
+#         break
+# print(ans)
+
+
+
+# for i in range(10):
+#     for j in range(10):   /// nested
+#         print(i, j)
+
+# for i in range(1, 6):
+#     for j in range(0, i):
+#         print("*", end=" ")
+#     print()

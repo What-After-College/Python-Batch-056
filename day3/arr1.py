@@ -14,6 +14,16 @@ students = [40, 60, 30, 50, 55]
 # print(students[1])
 
 i=0
-while i<5:
-    print(students[i])
-    i += 1
+# while i<5:
+#     print(students[i])
+#     i += 1
+#           0,1,2,3,4
+# for i in range(0, 5):
+#     print(students[i])
+
+# print(students)
+# for i in range(0, 5):
+#     print(students[i], end=" ")
+# print()
+
+# print(*students)  

@@ -35,13 +35,45 @@ i=0
 # print(l)
 
 
+# msg = ['This', 'is', 'a', 'message']
+# msgStr = ""
+# # print(msgStr)
+# # print(*msg)
+
+# for i in msg:
+#     msgStr += (i+" ")
+
+# # msgStr += "hello"
+# print(msgStr)
+
+# a = 15
+# b = 45
+
+# print(a, b)
+# # swap = 0
+# # swap = a
+# # a = b
+# # b = swap
+
+# # 1^0 = 1
+# # 1^1 = 0
+# # 0^0 = 0
+# # 0^1 = 1
+# # a, b = b, a
+# a = a^b    # ^
+# b = a^b
+# a = a^b
+
+
+
+# print(a, b)
+
 msg = ['This', 'is', 'a', 'message']
 msgStr = ""
-# print(msgStr)
-# print(*msg)
 
-for i in msg:
-    msgStr += (i+" ")
+i=0
+while i<len(msg):
+    msgStr += (msg[i]+" ")
+    i += 1
 
-# msgStr += "hello"
 print(msgStr)

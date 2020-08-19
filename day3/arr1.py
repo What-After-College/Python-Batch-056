@@ -27,3 +27,21 @@ i=0
 # print()
 
 # print(*students)  
+
+# for i in students:
+#     print(i)
+
+# l = len(students)
+# print(l)
+
+
+msg = ['This', 'is', 'a', 'message']
+msgStr = ""
+# print(msgStr)
+# print(*msg)
+
+for i in msg:
+    msgStr += (i+" ")
+
+# msgStr += "hello"
+print(msgStr)

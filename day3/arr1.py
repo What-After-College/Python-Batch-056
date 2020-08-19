@@ -68,12 +68,17 @@ i=0
 
 # print(a, b)
 
+# msg = ['This', 'is', 'a', 'message']
+# msgStr = ""
+
+# i=0
+# while i<len(msg):
+#     msgStr += (msg[i]+" ")
+#     i += 1
+
+# print(msgStr)
+
+
 msg = ['This', 'is', 'a', 'message']
-msgStr = ""
-
-i=0
-while i<len(msg):
-    msgStr += (msg[i]+" ")
-    i += 1
-
+msgStr = ' '.join(msg)
 print(msgStr)

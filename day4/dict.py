@@ -44,9 +44,7 @@ user2.update({'status':'offline'})
 
 
 def checkODD():
-    print(__name__)
+    print("checkODD", __name__)
 
-
-print(__name__)
-
-checkODD()
+if (__name__ == '__main__'):
+    print("base", __name__)

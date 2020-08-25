@@ -4,6 +4,8 @@ pip --version
 
 pip install numpy
 
+pip install matplotlib
+
 
 
 import numpy

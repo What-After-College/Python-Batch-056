@@ -48,9 +48,16 @@ arr.shape = (3,4)
 
 
 # x = np.array([[4,8], [10, 16]])
-# y = np.array([[2,2], [2,2]])
-# print(x/2)
+# # y = np.array([[2,2], [2,2]])
+# # print(x/2)
 
 
-x = np.array([[16, 25], [36, 49]])
-print(np.sqrt(x))
+# x = np.array([[16, 25], [36, 49]])
+# print(np.sqrt(x))
+
+
+x = np.array([[1,2], [3,4]])
+y = np.array([[5,6],[7,8]])
+
+print(x.dot(y))
+print(np.dot(x,y))

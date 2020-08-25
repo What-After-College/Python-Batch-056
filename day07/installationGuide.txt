@@ -1,0 +1,9 @@
+pip --version 
+
+
+
+pip install numpy
+
+
+
+import numpy

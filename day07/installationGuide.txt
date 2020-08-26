@@ -11,3 +11,11 @@ pip install folium
 
 
 import numpy
+
+
+csv --> comma separated values
+
+
+name, rollno, day1, d2,
+ritik , 02, p, p
+nikhil, 03, p, p

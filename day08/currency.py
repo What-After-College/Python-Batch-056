@@ -10,4 +10,11 @@ for data in recived_data.keys():
     if data == 'rates':
         rates = recived_data[data]
         for rt in rates:
-            print("{}: {}".format(rt, rates[rt]))
+            # print("{}: {}".format(rt, rates[rt]))
+            if rt == 'INR':
+                rupee_rate = rates[rt]
+
+
+dollars = int(input("Enter you amount in dollars: "))
+inramt =  dollars*rupee_rate
+print(inramt)

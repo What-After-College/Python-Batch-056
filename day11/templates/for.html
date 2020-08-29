@@ -8,11 +8,11 @@
 </head>
 
 <body>
-    {% if error %}
-    <h1>Error in Name</h1>
-    {% else %}
-    <h1>Hello {{name}}</h1>
-    {% endif %}
+    {% for i in name %}
+        <!-- <h1>Name less Than 3 is not valid</h1> -->
+        <h1>{{ i }}</h1>
+    {% endfor %}
+    <h1>Hello {{ name }}</h1>
 </body>
 
 </html>

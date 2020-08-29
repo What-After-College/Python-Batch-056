@@ -30,7 +30,7 @@ def collect_movie_dict(movie_id):
         "image": page_json["image"],
         "description": page_json["description"],
     }
-    print(movie["name"])
+    print(movie)
     return movie
 
 
